@@ -59,15 +59,17 @@ public class UserController {
         return "Hi " + user.getUserName() + " welcome to group !";
     }
     
-    @RequestMapping(value = "/authenticate", method = RequestMethod.POST)
+    @PostMapping("/authenticate")
 	public ResponseEntity<?> createAuthenticationToken(@RequestBody AuthenticationRequest authenticationRequest) throws Exception {
 
 		try {
+            System.out.println("pass ");
 			authenticationManager.authenticate(
 					new UsernamePasswordAuthenticationToken(authenticationRequest.getUsername(), authenticationRequest.getPassword())
 			);
 		}
 		catch (BadCredentialsException e) {
+            System.out.println("Fail ho gaya");
 			throw new Exception("Incorrect username or password", e);
 		}
 

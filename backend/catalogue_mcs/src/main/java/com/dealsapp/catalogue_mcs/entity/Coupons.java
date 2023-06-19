@@ -5,15 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 
-/**
- * This class is used to take the inputs from Catalogue Microservie
- * @author Prashant Kumar Singh
- *
- * 
- * @CreatedOn 30/08/2022
- * @UpdatedOn 01/09/2022
- *
- */
+
 
 
 @Document(collection = "Coupons_Catalogue")

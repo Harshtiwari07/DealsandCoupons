@@ -6,13 +6,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 
-/**
- *
- * This class is used to take the inputs from Coupons Cart Microservie
- * @CreatedOn 29/08/2022
- * @UpdatedOn 01/09/2022
- *
- */
 
 
 
