@@ -1,0 +1,49 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PaymentMcsApplication",
+            "request": "launch",
+            "mainClass": "com.dealsapp.payment_mcs.PaymentMcsApplication",
+            "projectName": "payment_mcs"
+        },
+        {
+            "type": "java",
+            "name": "CouponsCartMcsApplication",
+            "request": "launch",
+            "mainClass": "com.dealsapp.coupons_cart_mcs.CouponsCartMcsApplication",
+            "projectName": "coupons_cart_mcs"
+        },
+        {
+            "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.dealsapp.ApiGateway.ApiGatewayApplication",
+            "projectName": "ApiGateway"
+        },
+        {
+            "type": "java",
+            "name": "DiscoveryServerApplication",
+            "request": "launch",
+            "mainClass": "com.dealsapp.discoveryserver.DiscoveryServerApplication",
+            "projectName": "discovery-server"
+        },
+        {
+            "type": "java",
+            "name": "CatalogueMcsApplication",
+            "request": "launch",
+            "mainClass": "com.dealsapp.catalogue_mcs.CatalogueMcsApplication",
+            "projectName": "catalogue_mcs"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserManagementMcsApplication<user_management_mcs>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.dealsapp.user_management_mcs.UserManagementMcsApplication",
+            "projectName": "user_management_mcs",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

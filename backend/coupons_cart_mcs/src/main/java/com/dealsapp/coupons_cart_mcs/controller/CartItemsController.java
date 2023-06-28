@@ -38,6 +38,7 @@ public class CartItemsController {
 	 */
 	@PostMapping("/addorder")
 	public String addNeworder( @RequestBody CartItems cartItems ){
+			System.out.println("Trying to add cart")
 			return cartItemsService.addorder( cartItems );		
 	}
 	
