@@ -25,7 +25,7 @@ class Navigation extends React.Component {
     return (
       <nav className="navbar  navbar-expand-lg navbar-light" variant="dark" style={{backgroundColor: 'black'}}>
         <a className="navbar-brand" href="/">
-         <img src={require('../assets/images/food.png')} alt="Coupons" style={{width: 100, height: 50}} />
+         <img src={require('../assets/images/food1.jpeg')} alt="Coupons" style={{width: 100, height: 50}} />
          </a>
          
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

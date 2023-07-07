@@ -15,8 +15,7 @@ class CartComponent extends React.Component {
 	// ComponentDidMount is used to
 	// execute the code
 	componentDidMount() {
-		fetch(
-"http://localhost:8082/cart/findall")
+		fetch("http://localhost:8082/cart/findall")
 			.then((res) => res.json())
 			.then((json) => {
 				this.setState({

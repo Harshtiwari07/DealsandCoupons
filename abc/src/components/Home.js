@@ -5,14 +5,14 @@ export default class Home extends Component {
     render(){
         return (
       
-    <div className="container-fluid">
+    <div className="container-fluid" style={{backgroundColor:"black",padding:20}}>
 
     <div className="row">
         <div className="col">
             <div className="main">
                 <div className="row justify-content-center">
                     <div className="col-2">
-                        <div className="card bg-light" style={{width: 200}}>
+                        <div className="card bg-warning" style={{width: 200}}>
               
                             <a href="/order">
                             <img className="card-img-top" src={require('../assets/logos/b1.jpg')} alt="Card image cap" />
@@ -24,7 +24,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                     <div className="col-2">
-                        <div className="card bg-light"style={{width: 200}} >
+                        <div className="card bg-warning"style={{width: 200}} >
                             <a href="/order"><img className="card-img-top" src={require('../assets/logos/b2.jpg')} alt="Card image cap" />
                             </a>
                             <div className="card-body">
@@ -35,7 +35,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                     <div className="col-2">
-                        <div className="card bg-light"style={{width: 200}} >
+                        <div className="card bg-warning"style={{width: 200}} >
                             <a href="/order"><img className="card-img-top" src={require('../assets/logos/E1.jpg')} alt="Card image cap" />
                             </a>
                             <div className="card-body">
@@ -46,7 +46,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                     <div className="col-2">
-                        <div className="card bg-light" style={{width: 200}}>
+                        <div className="card bg-warning" style={{width: 200}}>
                             <a href="/order"><img className="card-img-top" src={require('../assets/logos/b4.jpg')} alt="Card image cap" />
                             </a>
                             <div className="card-body">
@@ -57,7 +57,7 @@ export default class Home extends Component {
                         </div>
                     </div>
                     <div className="col-2">
-                        <div className="card bg-light" style={{width: 200}}>
+                        <div className="card bg-warning" style={{width: 200}}>
                             <a href="/order"><img className="card-img-top" src={require('../assets/logos/b5.jpg')} alt="Card image cap" />
                             </a>
                             <div className="card-body">
@@ -84,7 +84,7 @@ export default class Home extends Component {
     <div className="row">
 
         <div className="col-3">
-            <div className="card " style={{width: 250}}>
+            <div className="card bg-warning " style={{width: 250}}>
                 <img className="card-img-top" src={require('../assets/logos/food2.jpg')} alt="Card image cap" />
                 <div className="card-body">
                     <p className="card-text"></p>
@@ -94,7 +94,7 @@ export default class Home extends Component {
             </div>
         </div>
         <div className="col-3">
-            <div className="card " style={{width: 200}}>
+            <div className="card bg-warning" style={{width: 200}}>
                 <img className="card-img-top" src={require('../assets/logos/food1.jpg')} alt="Card image cap" />
                 <div className="card-body">
                     <p className="card-text"></p>
@@ -104,7 +104,7 @@ export default class Home extends Component {
             </div>
         </div>
         <div className="col-3">
-            <div className="card" style={{width: 200}}>
+            <div className="card bg-warning" style={{width: 200}}>
                 <img className="card-img-top" src={require('../assets/logos/beauty1.jpeg')} alt="Card image cap" />
                 <div className="card-body">
                 <a href="/cart" className="btn btn-outline-primary stretched-link">Add to Cart</a>
@@ -113,7 +113,7 @@ export default class Home extends Component {
             </div>
         </div>
         <div className="col-3">
-            <div className="card" style={{width: 200}}>
+            <div className="card bg-warning" style={{width: 200}}>
                 <img className="card-img-top" src={require('../assets/logos/bev2.jpg')} style={{width: 200,height: 150}} alt="Card image cap" />
                 <div className="card-body">
                 <a href="/cart" className="btn btn-outline-primary stretched-link">Add to Cart</a>
@@ -122,7 +122,7 @@ export default class Home extends Component {
             </div>
         </div>
         <div className="col-3">
-            <div className="card" style={{width: 200}}>
+            <div className="card bg-warning" style={{width: 200}}>
                 <img className="card-img-top" src={require('../assets/logos/m5.jpg')} style={{width: 200,height: 150}} alt="Card image cap" />
                 <div className="card-body">
                 <a href="/cart" className="btn btn-outline-primary stretched-link">Add to Cart</a>

@@ -1,5 +1,5 @@
 .main {
-    background-color: rgb(4, 196, 255);
+    background-color: rgb(87, 222, 25);
     margin-top: 10px;
 }
 
@@ -45,6 +45,7 @@
     font-size: 20px;
     font-weight: bold;
     margin-top: 20px;
+    color: white;
 }
 
 .trend {
@@ -63,4 +64,8 @@
 .card-line {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+.container-fluid{
+    padding: 0%;
+    
 }

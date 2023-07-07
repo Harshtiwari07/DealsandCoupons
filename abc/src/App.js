@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-     <div className="container-fluid">
+     <div className="container-fluid" style={{padding:0}}>
      <Navigation/>
       <Switch>
       
