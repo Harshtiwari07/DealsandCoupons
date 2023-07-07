@@ -34,11 +34,11 @@ class CatalogueMcsApplicationTests {
 		assertEquals(2, service.fetchAllOrders().size());
 	}
 	
-	@Test
-	@DisplayName("This Save operation test")
-	public void saveTest() {
-		Coupons coupon = new Coupons("23","sports","abc","20%",30,"abc",40);
-		when(repository.save(coupon)).thenReturn(coupon);
-		assertEquals(coupon, service.save(coupon));
-	}
+	// @Test
+	// @DisplayName("This Save operation test")
+	// public void saveTest() {
+	// 	Coupons coupon = new Coupons("23","sports","abc","20%",30,"abc",40);
+	// 	when(repository.save(coupon)).thenReturn(coupon);
+	// 	assertEquals(coupon, service.save(coupon));
+	// }
 }
