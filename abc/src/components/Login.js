@@ -17,9 +17,7 @@ export default function Login() {
   }
 
   return (
-    <div className="Login" style={{ 
-      backgroundImage: `url("https://t3.ftcdn.net/jpg/02/92/90/56/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg")` 
-    }}>
+    <div className="Login" style={{backgroundColor:"grey" ,height:1080}}>
       <Form onSubmit={handleSubmit}>
         <Form.Group size="lg" controlId="email">
           <Form.Label>Email</Form.Label>

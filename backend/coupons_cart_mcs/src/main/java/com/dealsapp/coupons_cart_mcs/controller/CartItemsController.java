@@ -19,13 +19,14 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dealsapp.coupons_cart_mcs.entity.CartItems;
 import com.dealsapp.coupons_cart_mcs.service.CartItemsService;
 import com.dealsapp.coupons_cart_mcs.wrapper.FinalList;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 /**
  * This is the controller of Coupons Cart Microservice
  */
 
 @RestController
 @RequestMapping("/cartItems")
+@CrossOrigin(origins = "http://localhost:3000")
 public class CartItemsController {
 	
 	

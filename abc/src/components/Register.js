@@ -103,9 +103,7 @@ class Register extends React.Component {
     }
   render() {
     return (
-    <div id="main-registration-container" style={{ 
-      backgroundImage: `url("https://wallpaperaccess.com/full/2089149.jpg")` 
-    }}>
+    <div id="main-registration-container" style={{backgroundColor:"brown" ,height:1080,alignContent:'space-between',padding:100 }}>
      <div id="register">
         <h3>Registration page</h3>
         <form method="post"  name="userRegistrationForm"  onSubmit= {this.submituserRegistrationForm} >

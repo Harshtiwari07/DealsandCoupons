@@ -31,11 +31,9 @@ export default function postfunction() {
 
      
      return (
-        <div id="main-registration-container" style={{ 
-            backgroundImage: `url("https://wallpaperaccess.com/full/2089149.jpg")` 
-          }}> 
+        <div id="main-registration-container" style={{backgroundColor:"brown" ,height:1080,alignContent:'space-between',padding:100 }}> 
          
-             <h3>Registration_page</h3>
+             <h3>Registration Page</h3>
            <form onSubmit={(e) => submit(e)} >
            <input onChange={(e) => handle(e)} id="emailId" value={data.emailId} placeholder="emailId" type="text"></input>
            <input onChange={(e) => handle(e)} id="fullName" value={data.fullName} placeholder="fullName" type="text"></input>

@@ -37,18 +37,18 @@ export default function logPost() {
      
      return (
         <div id="main-registration-container" style={{ 
-            backgroundImage: `url("https://i.pinimg.com/originals/dc/19/3e/dc193ea484188ecc9d14d6e1cb0f4992.jpg")` 
+            backgroundColor:'grey',height:1000,alignContent:'space-between',padding:100 
           }}> 
-             <h3>login page</h3>
-           <form onSubmit={(e) => submit(e)} >
-           <input onChange={(e) => handle(e)} id="emailId" value={data.emailId} placeholder="emailId" type="text"></input>
+             <h3>Login Page</h3>
+           <form onSubmit={(e) => submit(e)} style={{padding:10,margin:10}} >
+           <input style={{padding:10}} onChange={(e) => handle(e)} id="emailId" value={data.emailId} placeholder="emailId" type="text"></input>
            
-           <input onChange={(e) => handle(e)} id="password" value={data.password} placeholder="password" type="password"></input>
+           <input style={{padding:10}} onChange={(e) => handle(e)} id="password" value={data.password} placeholder="password" type="password"></input>
           
-           
-           <a href="/" className="button">Login</a>
-           <br />
-           <a href="/" className="button" >Logout</a>
+           <br/>
+           <a href="/" className="button" style={{padding:10,margin:10}}>Login</a>
+          
+           <a href="/" className="button" style={{padding:10,margin:10}}>Logout</a>
 
            </form>
            </div>
