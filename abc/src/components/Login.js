@@ -11,9 +11,35 @@ export default function Login() {
     return email.length > 0 && password.length > 0;
   }
 
-  function handleSubmit(event) {
+  const handleSubmit=async(event) =>{
     event.preventDefault();
     alert("User logged successfully");
+
+    const loginData = {
+      email,
+      password
+    };
+
+    try {
+      const response = await fetch("api/auth/signin", {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(loginData)
+      });
+
+      const data = await response.json();
+
+      // Handle response based on success or failure
+      if (response.ok) {
+        console.log('Login successful');
+      } else {
+        console.log('Login failed');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
   }
 
   return (

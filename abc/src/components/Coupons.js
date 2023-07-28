@@ -67,18 +67,18 @@ export default class Coupons extends Component {
             return (  
             
             
-            <Col sm="4">
+            <Col sm="4" >
             <CouponsCard key={person.id} removePerson={this.removePerson.bind(this)} person={person} />
           </Col>
         )
       })
       return (
-        <Container fluid>
+        <Container fluid style={{margin:10,backgroundColor:"black",padding:10}}>
     <span>
-    <h3>Coupons</h3>
+    <h3 style={{color:'white'}}>Coupons</h3>
   </span>
   <span>
-          <h4>Amazing Coupons below</h4>
+          <h4 style={{color:'white'}}>Amazing Coupons below</h4>
         </span>
         <Row>
             {peopleCards}

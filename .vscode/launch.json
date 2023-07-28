@@ -2,6 +2,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CartServiceApplication",
+            "request": "launch",
+            "mainClass": "com.eshoppingzone.CartServiceApplication",
+            "projectName": "Cart-Service"
+        },
+        {
+            "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.gateway.ApiGatewayApplication",
+            "projectName": "Api-Gateway"
+        },
+        {
+            "type": "java",
+            "name": "SpringProfileProductApplication",
+            "request": "launch",
+            "mainClass": "com.eshoppingzone.SpringProfileProductApplication",
+            "projectName": "spring-profile-product"
+        },
+        {
+            "type": "java",
+            "name": "ProfileServiceApplication",
+            "request": "launch",
+            "mainClass": "com.eshoppingzone.ProfileServiceApplication",
+            "projectName": "Profile-Service"
+        },
+        {
+            "type": "java",
+            "name": "PaymentServiceApplication",
+            "request": "launch",
+            "mainClass": "com.coupon.PaymentServiceApplication",
+            "projectName": "PaymentService"
+        },
+        {
+            "type": "java",
+            "name": "OrderServiceApplication",
+            "request": "launch",
+            "mainClass": "com.eshoppingzone.OrderServiceApplication",
+            "projectName": "Order-Service"
+        },
+        {
+            "type": "java",
+            "name": "GatewayJavaApplication",
+            "request": "launch",
+            "mainClass": "com.example.GatewayJavaApplication",
+            "projectName": "gateway-java"
+        },
+        {
+            "type": "java",
+            "name": "EurekaServerApplication",
+            "request": "launch",
+            "mainClass": "com.discovery.EurekaServerApplication",
+            "projectName": "EurekaService"
+        },
+        {
+            "type": "java",
             "name": "SecurityApplication",
             "request": "launch",
             "mainClass": "security.SecurityApplication",
